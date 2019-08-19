@@ -9,6 +9,19 @@ process.env.PORT = process.env.PORT || 3000;
 //================
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
+//================
+// EXPIRATION TOKEN
+//================
+// 60 seconds
+// 60 min
+// 24 hours
+// 30 days
+process.env.EXPIRATION_TOKEN = 60 * 60 * 24 * 30;
+
+//================
+// SEED AUTHENTICATION
+//================
+process.env.SEED = process.env.SEED || 'seed-dev';
 
 //================
 // DATA BASE
